@@ -23,7 +23,7 @@ h1 em, h2 em { color: var(--coral); font-style: normal; }
 .button { align-items: center; background: var(--ink); color: var(--cream); display: inline-flex; font-size: 13px; font-weight: 700; margin-top: 34px; padding: 16px 20px; transition: background .2s ease, transform .2s ease; }
 .button:hover { background: var(--coral); transform: translateY(-3px); }
 .hero-art { align-items: center; display: flex; justify-content: center; min-height: 440px; position: relative; }
-.logo-disc { align-items: center; background: var(--coral); border: 1px solid var(--ink); border-radius: 50%; box-shadow: 12px 14px 0 var(--ink); display: flex; height: min(35vw, 430px); justify-content: center; overflow: hidden; position: relative; transform: rotate(8deg); width: min(35vw, 430px); z-index: 1; }
+.logo-disc { align-items: center; background: #fff; border: 1px solid var(--ink); border-radius: 50%; box-shadow: 12px 14px 0 var(--ink); display: flex; height: min(35vw, 430px); justify-content: center; overflow: hidden; position: relative; transform: rotate(8deg); width: min(35vw, 430px); z-index: 1; }
 .logo-disc img { height: 88%; object-fit: contain; width: 88%; }
 .burst { border: 1px solid var(--ink); height: 90px; position: absolute; transform: rotate(30deg); width: 90px; }
 .burst-one { background: var(--gold); left: 5%; top: 10%; }
@@ -31,6 +31,7 @@ h1 em, h2 em { color: var(--coral); font-style: normal; }
 .orbit-label { bottom: 12%; font-family: Syne, sans-serif; font-size: 11px; left: 6%; letter-spacing: .08em; position: absolute; transform: rotate(-12deg); }
 .section-wrap { border-top: 1px solid var(--line); margin: 0 auto; max-width: 1160px; padding: 110px 5vw; }
 .about { display: grid; gap: 10vw; grid-template-columns: 1fr 1fr; }
+.section-intro h2 { max-width: 100%; overflow-wrap: break-word; }
 h2 { font-size: clamp(42px, 5vw, 72px); }
 .about-body { max-width: 480px; padding-top: 8px; }
 .about-body p, .duo-copy > p, .contact-side p { font-size: 17px; line-height: 1.7; margin-bottom: 22px; opacity: .76; }
@@ -64,6 +65,7 @@ h2 { font-size: clamp(42px, 5vw, 72px); }
     .burst-two { right: 0; }
     .section-wrap, .about, .duo, .contact { display: block; padding-bottom: 75px; padding-top: 75px; }
     .about-body { margin-top: 40px; }
+    .section-intro h2 { font-size: clamp(36px, 10vw, 52px); line-height: 1.04; }
     .duo-copy { margin-top: 65px; }
     .contact-side { margin-top: 40px; }
     .footer { gap: 10px; }
