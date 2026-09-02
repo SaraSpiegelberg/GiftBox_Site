@@ -51,6 +51,7 @@ h2 { font-size: clamp(42px, 5vw, 72px); }
 .contact h2 { margin-top: 24px; }
 .contact-side { max-width: 390px; }
 .contact-side .button { margin-top: 4px; }
+address { font-size: 13px; font-style: normal; line-height: 1.6; margin-top: 28px; opacity: .7; }
 .footer { display: flex; font-size: 11px; justify-content: space-between; margin: 0 auto; max-width: 1280px; opacity: .65; padding: 25px 5vw; }
 .footer-star { color: var(--coral); font-size: 16px; margin-left: 5px; }
 @media (max-width: 700px) {
