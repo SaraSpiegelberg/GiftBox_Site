@@ -51,6 +51,7 @@ h2 { font-size: clamp(42px, 5vw, 72px); }
 .project-info strong { font-family: Syne, sans-serif; font-size: 19px; }
 .prototype-row { border-top: 1px solid var(--line); display: grid; gap: 8vw; grid-template-columns: .7fr 1.3fr; margin-top: 80px; padding-top: 35px; }
 .prototype-copy { font-size: 16px; line-height: 1.6; margin-top: 18px; max-width: 240px; opacity: .7; }
+.prototype-row h3 { font-family: Syne, sans-serif; font-size: 27px; letter-spacing: -.05em; line-height: 1.05; margin-top: 24px; }
 .prototype-grid { display: grid; gap: 12px; grid-template-columns: repeat(3, 1fr); }
 .prototype-grid img { aspect-ratio: 1.7; border: 1px solid var(--ink); display: block; object-fit: cover; width: 100%; }
 .duo { align-items: center; display: grid; gap: 10vw; grid-template-columns: 1fr 1fr; }
